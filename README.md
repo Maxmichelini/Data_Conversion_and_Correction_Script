@@ -1,5 +1,11 @@
 # Data Conversion and Correction Script
 
+## Origin
+The python program and all the related information in this git are part of a larger project, "fall detector by STwinbox."
+All information regarding the entire research is available in the PDF report included in the files.
+In addition, the developed part of the AI ​​mentioned in the report is available at the following link:
+https://studio.edgeimpulse.com/public/776299/live
+
 ##  Purpose
 
 This Python script automates the process of:
