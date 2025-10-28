@@ -1,12 +1,12 @@
-# Data Conversion and Correction Script
+# Fall detector by STwinbox
 
-## Origin
-The python program and all the related information in this git are part of a larger project, "fall detector by STwinbox."
-All information regarding the entire research is available in the PDF report included in the files.
-In addition, the developed part of the AI ​​mentioned in the report is available at the following link:
+## Project Overview
+This project, was developed as part of an academic research initiative at the University of Trento. It explores the use of the STEVAL-STWINBX1 (STwinbox) low-power microcontroller for real-time fall detection through embedded artificial intelligence.
+The goal was to design a system capable of recognizing impacts or falls such as those involving elderly individuals combining data from onboard sensors with a lightweight AI model optimized for tinyML deployment. The project includes the complete pipeline: data acquisition, preprocessing, signal correction, feature extraction, and neural network training, all designed to run efficiently on a constrained embedded platform. 
+The repository provides the main Python scripts for data conversion and correction, as well as references to the trained model implemented through Edge Impulse. All information regarding the entire research is available in the PDF report included in the files. In addition, the developed part of the AI mentioned in the report is available at the following link:
 https://studio.edgeimpulse.com/public/776299/live
 
-##  Purpose
+##  Data Conversion and Correction Script
 
 This Python script automates the process of:
 1. **Reading and converting** binary `.dat` files from STMicroelectronics sensors (accelerometers, microphones, magnetometers, etc.) into human-readable `.csv` format;  
