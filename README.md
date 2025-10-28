@@ -8,7 +8,7 @@ https://studio.edgeimpulse.com/public/776299/live
 
 ##  Data Conversion and Correction Script
 
-This Python script automates the process of:
+The Python script "Dat_Reader_Corrector" automates the process of:
 1. **Reading and converting** binary `.dat` files from STMicroelectronics sensors (accelerometers, microphones, magnetometers, etc.) into human-readable `.csv` format;  
 2. **Applying correction data** from matching files (`.csv` or `.dat`) located in a correction folder;  
 3. **Saving the corrected results** in an output folder.
